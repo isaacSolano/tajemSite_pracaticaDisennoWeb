@@ -1,0 +1,499 @@
+.clear{
+	clear: both;
+}
+.border{
+	height: 0.063em;
+	width: 3.125em;
+	margin: 0 auto 0.844em auto;
+	text-align: center;
+}
+.border_bottom{
+	border-bottom: 1px solid #ebebeb;
+}
+@font-face{
+	font-family: roboto-black;
+	src: url(../fonts/Roboto-Black.ttf);
+}
+@font-face{
+	font-family: roboto-light;
+	src: url(../fonts/Roboto-Light.ttf);
+}
+@font-face{
+	font-family: hammer;
+	src: url(../fonts/Hammer.ttf);
+}
+@font-face{
+	font-family: roboto-regular;
+	src: url(../fonts/Roboto-Regular.ttf);
+}
+body{
+	width: 100%;
+	font-size: 16px;
+}
+header{
+	height: 42.188em;
+	background: #2f284f;
+	background-image: url(../imgs/banner.png);
+	background-blend-mode: overlay;
+	background-attachment: fixed;
+	opacity: 0.85%;
+	background-size: cover;
+}
+header img{
+	margin: 1.063em 17.813em 0 10.3125em;
+	vertical-align: middle;
+}
+header nav{
+	display: inline-block;
+	margin: 1.063em 0 0 0;
+	text-align: center;
+}
+header nav a{
+	color: #fff;
+	text-decoration: none;
+	font-size: 0.813em;
+	font-family: roboto-black;
+	margin: 0 1.875em 0 0;
+}
+header nav a:hover{
+	color: #00e0d0;
+}
+div.contenidoHeader{
+	color: #fff;
+	width: 48.750em;
+	margin: 0 auto;
+	text-align: center;
+}
+header div.contenidoHeader h1{
+	font-size: 2.250em;
+	margin: 5.625em 0 0.9375em 0;
+	font-family: Playfair Display, serif;
+}
+header div.contenidoHeader div.border{
+	background: #00e0d0;
+}
+header div.contenidoHeader p{
+	font-size: 0.875em;
+	font-family: roboto-light;
+	line-height: 1.5em;
+}
+header div.contenidoHeader a{
+	display: block;
+	color: #00e0d0;
+	text-decoration: none;
+	border: 2px solid #00e0d0;
+	padding: 0.750em;
+	font-family: tahoma;
+	margin: 3.125em auto 0 auto;
+	border-radius: 0.063em;
+	width: 7.500em;
+}
+header div.contenidoHeader a.circles{
+	width: 	0.625em;
+	height: 0.625em;
+	border-radius: 50%;
+	border: 0.063px solid #bababc;
+	display: inline-block;
+	margin: 3.9065em 0.313em 0 0;
+	padding: 0;
+}
+header div.contenidoHeader a#color{
+	background: #00e0d0;
+	border: none;
+	width: 0.688em;
+	height: 0.688em;
+}
+main section.about{
+	padding: 4.375em 0 0 0;
+	text-align: center;
+}
+main section.about aside{
+	width: 33.75em;
+	display: inline-block;
+	margin: 0 0 4.375em 6.25em;
+	text-align: left;
+}
+main section.about img{
+	vertical-align: text-bottom;
+}
+main section.about aside h2{
+	font-family: Playfair Display,serif;
+	display: inline-block;
+	font-size: 1.375em;
+	margin: 0 0 1.75em 0;
+	color: #413d4b;
+}
+main section.about aside p{
+	font-family: roboto-light;
+	color: #817f86;
+	font-size: 0.875em;
+	line-height: 1.5em;
+	display: inline-block;
+	margin: 0 0 1.75em 0
+}
+main section.about aside a{
+	display: inline-block;
+	color: #00e0d0;
+	text-decoration: none;
+	border: 2px solid #00e0d0;
+	padding: 0.750em;
+	font-family: tahoma;
+	border-radius: 0.063em;
+	width: 7.375em;
+	text-align: center;
+}
+main section.about section{
+	height: 34.375em;
+	background: #312c52;
+	background-image: url(../imgs/about_bg.png);
+	background-blend-mode: overlay;
+	background-attachment: fixed;
+	background-size: cover;
+	opacity: 0.85%;
+}
+main section.about section img{
+	margin: 12.5em 0 1.75em 0;
+	cursor: pointer;
+}
+main section.about section h3{
+	font-family: roboto-black;
+	color: #fff;
+}
+main section.expertise{
+	text-align: center;
+}
+main section.expertise h2{
+	font-family: Playfair Display, serif;
+	font-size: 1.375em;
+	color: #413d4b;
+	margin: 4.375em 0 0 0;
+}
+main section.expertise p{
+	font-family: Playfair Display,serif;
+	font-size: 0.875em;
+	color: #78777b;
+	margin: 1.25em 0;
+}
+main section.expertise div.border{
+	background: #c6c4c9;
+	height: 0.1em;
+}
+main section.expertise aside{
+	padding: 0 0 2.5em 0;
+	width: 80%;
+	margin: 0 auto
+}
+main section.expertise aside div{
+	display: inline-block;
+	width: 15.625em;
+	margin: 5em 2.1875em 0 2.1875em;
+}
+main section.expertise aside div h3{
+	font-family: roboto-black;
+	color: #413d4b;
+	font-size: 0.875em;
+	margin: 2.1875em 0 1.5625em 0;
+}
+main section.expertise aside div p{
+	font-size: 0.875em;
+	font-family: roboto-light;
+	line-height: 1.5em;
+}
+
+main section.team{
+	text-align: center;
+	background: #322c53;
+	background-image: url(../imgs/team_bg.png);
+	background-blend-mode: overlay;
+	background-attachment: fixed;
+	height: 44.375em;
+	padding: 4.375em 0 0 0;
+	background-size: cover;
+}
+main section.team h2{
+	font-family: Playfair Display, serif;
+	font-size: 1.375em;
+	color: #fff;
+	margin: 0 0 0.9375em 0;
+}
+main section.team p{
+	font-size: 0.875em;
+	color: #fff;
+	font-family: Playfair Display, serif;
+	margin: 0 0 1.25em 0;
+}
+main section.team div{
+	background: #655c80;
+	margin: 0 auto 2.8125em auto;
+	height: 0.140625em;
+}
+main section.team aside{
+	width: 13.75em;
+	text-align: center;
+	margin: 0 0.625em 4.0625em 0.625em;
+	display: inline-block;
+}
+main section.team aside hgroup{
+	padding: 1.25em 3.75em;
+	border: 1px solid #76748a;
+}
+main section.team aside hgroup h3{
+	font-family: roboto-black;
+	font-size: 0.875em;
+	color: #f3f3f5;
+	margin: 0 0 0.625em 0;
+}
+main section.team aside hgroup h4{
+	font-family: roboto-light,serif;
+	color: #c0c0c6;
+	font-size: 0.8125em;
+}
+main section.team p#bottom_text{
+	font-family: roboto-light;
+	color: #f3f3f3;
+	font-size: 0.875em;
+	margin: 0 0 2em 0;
+}
+main section.team a{
+	text-decoration: none;
+	color: #00e0d0;
+	border: 0.03125em solid #00e0d0;
+	padding: 0.75em 0.9375em;
+	border-radius: 0.0625em;
+	font-size: 1em;
+	font-family: hammer;
+}
+
+main section.works{
+	height: 46.250em;
+}
+main section.works h2{
+	font-size: 1.375em;
+	font-family: Playfair Display, serif;
+	color: #413d4b;
+	margin: 4.375em 30em 4.375em 7em;
+	display: inline-block;
+}
+main section.works a{
+	text-decoration: none;
+	color: #413d4b;
+	font-family: roboto-light;
+	font-size: 0.875em;
+}
+main section.works a span{
+	font-size: 1.5em;
+	margin: 0 0 0 0.094em;
+}
+main section.works img{
+	width: 100%;
+	display: block;
+}
+main section.works a.btn{
+	margin: 4.375em auto;
+	text-align: center;
+	padding: 0.813em 0;
+	color: #00e0d0;
+	border: 0.031em solid #00e0d0;
+	display: block;
+	width: 8.750em;
+	font-size: 1em;
+	font-family: hammer;
+	border-radius: 0.063em;
+}
+
+main section.testimonial{
+	height: 31.250em;
+	background: #483a6d;
+	background-image: url(../imgs/testimonial_bg.png);
+	background-blend-mode: overlay;
+	background-size: cover;
+	background-attachment: fixed;
+	padding: 4.063em 0 0 0;
+}
+main section.testimonial h2{
+	font-size: 6.250em;
+	font-family: Playfair Display, serif;
+	color: #f0f0f2;
+	text-align: center;
+}
+main section.testimonial p{
+	font-size: 1em;
+	font-family: Playfair Display, serif;
+	color: #fff;
+	margin: 0em 12.8125em 3.125em 12.8125em;
+	text-align: center;
+	line-height: 1.5em;
+}
+main section.testimonial h3{
+	font-family: roboto-black;
+	font-size: 0.875em;
+	color: #fff;
+	margin: 0 0 0.625em 0;
+	text-align: center;
+}
+main section.testimonial h4{
+	color: #cfced4;
+	font-family: roboto-light;
+	font-size: 0.813em;
+	text-align: center;
+}
+main section.testimonial aside{
+	margin: 0 auto;
+	display: block;
+	text-align: center;
+	margin: 2.813em 0 0 0;
+}
+main section.testimonial aside a{
+	color: #9f9f9f;
+	font-size: 2em;
+	vertical-align: middle;
+	text-decoration: none;
+}
+main section.testimonial aside img{
+	vertical-align: middle;
+	margin: 0 0.375em;
+}
+
+main section.contact{
+	height: 43.750em;
+	padding: 0 9.5em;
+}
+main section.contact aside{
+	display: inline-block;
+}
+main section.contact aside.left{
+	float: left;
+	width: 28.750em;
+}
+main section.contact aside.right{
+	float: right;
+	width: 23.750em;
+}
+main section.contact aside h2{
+	font-size: 1.375em;
+	font-family: Playfair Display;
+	color: #413d4b;
+	margin: 4.375em 0 2.188em 0;
+}
+main section.contact aside input{
+	width: 100%;
+	display: block;
+	padding: 1.250em 0 0.938em 1.250em;
+	margin: 0 0 1.250em 0;
+	border: 1px solid #e5e5e5;
+	font-size: 0.875em;
+	font-family: roboto-light;
+	color: #413d4b;
+}
+main section.contact aside input#massage{
+	padding: 1.250em 0 10.313em 1.250em;
+}
+main section.contact aside a{
+	padding: 0.813em 1.875em;
+	font-size: 1em;
+	font-family: hammer;
+	text-decoration: none;
+	border: 1px solid #00e0d0;
+	color: #00e0d0;
+	margin: 1.250em 0 0 0;
+	display: inline-block;
+	border-radius: 0.063em;
+}
+main section.contact aside div#margin{
+	margin: 0.750em 4em 0 0;
+	width: 10em;
+}
+main section.contact aside div{
+	width: 9.375em;
+	display: inline-block;
+	text-align: center;
+	margin: 0.750em 0 0 0;
+	vertical-align: text-top;
+}
+main section.contact aside div img{
+	display: inline-block;
+	margin: 0 0 2.813em 0;
+	vertical-align: text-bottom;
+}
+
+footer{
+	height: 20.625em;
+	background: #423766;
+	background-image: url(../imgs/footer_bg.png);
+	background-blend-mode: overlay;
+	background-attachment: fixed;
+	padding: 4.375em 9.5em 0 9.5em;
+	background-size: cover;
+}
+footer div{
+	display: flex;
+}
+footer section{
+	display: inline-block;
+	margin: 0 auto;
+}
+footer section.left{
+	width: 17.813em;
+}
+footer section.center{
+	width: 16.800em;
+}
+footer section.rigth{
+	width: 18.125em;
+}
+footer section img{
+	margin: 0 0 0.875em 0;
+	vertical-align: text-top;
+}
+footer section h2{
+	color: #fff;
+	font-size: 0.938em;
+	font-family: roboto-black;
+	margin: 1.250em 0 2.500em 0;
+}
+footer section p{
+	color: #fff;
+	font-family: roboto-light;
+	font-size: 0.875em;
+	line-height: 1.5em;
+	margin: 0 0 1.563em 0;
+}
+footer section p span{
+	margin: 0 0.938em 0 0;
+}
+footer section input{
+	padding: 0.625em 1.563em 0.625em 0.938em;
+	color: #fff;
+	font-family: roboto-light;
+	font-size: 0.875em;
+	background: none;
+	border: 1px solid #9e98b0;
+}
+footer section a{
+	text-decoration: none;
+	color: #000;
+	padding: 0.625em 1.250em;
+	background: #9e97b1;
+	opacity: 0.85;
+}
+footer section div img{
+	margin: 1.563em 0.313em 0 0;
+}
+footer nav a{
+	margin: 0 1.875em 0 0;
+	font-family: roboto-regular;
+	color: #fff;
+	text-decoration: none;
+	font-size: 0.875em;
+}
+footer nav.left{
+	float: left;
+	margin: 5em 0 0 0;
+}
+footer p.right{
+	float: right;
+	margin: 5em 0 0 0;
+	font-family: roboto-regular;
+	font-size: 0.875em;
+	color: #fff;
+}
